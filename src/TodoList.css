@@ -1,0 +1,50 @@
+.todo-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+    align-items: center;
+    background-color: rgb(196, 223, 255);
+    padding: 0.5rem 0.3rem;
+    border-radius: 5px;
+    border: 1px solid black;
+    
+}
+
+.todo-container-checked{
+    background-color: rgb(196, 255, 230);
+}
+.todo-list{
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+    min-width: 25rem;
+    min-height: 30rem;
+    max-height: 30rem;
+}
+
+.faTrash{
+    background-color: rgb(57, 114, 201);
+    padding: 0.5rem;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.icon-div{
+    display: flex;
+    gap: 10px;
+}
+
+.faCheck{
+    background-color: rgb(61, 204, 133);
+    padding: 0.5rem;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+.todo-text-checked {
+    text-decoration: line-through;
+}
